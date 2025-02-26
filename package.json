@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "concurrently npm:start:* -c \"bgWhite.blue.bold\" -k",
+    "start": "concurrently npm:start:* -c \"bgBlue.white,bgWhite.blue.bold\" -k",
     "start:shell": "ng serve clarity-shell",
     "start:clarity": "ng serve clarity-app",
     "start:agGrid": "ng serve ag-grid-app",
@@ -11,7 +11,7 @@
     "start:kendoUI": "ng serve kendo-ui-app",
     "start:ngBootstrap": "ng serve ng-bootstrap-app",
     "start:ngZorro": "ng serve ng-zorro-app",
-    "start:primeNG": "ng serve primeng-app",
+    "start:primeNG": "ng serve primeng",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

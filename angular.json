@@ -352,6 +352,7 @@
 					},
 					"defaultConfiguration": "development",
 					"options": {
+            "open": true,
 						"port": 4200
 					}
 				}

@@ -10,30 +10,30 @@ export const routes: Routes = [
     },
     {
         path: 'clarity',
-        loadComponent: () => loadRemoteModule('clarity', './Component')
+        loadComponent: () => loadRemoteModule('clarity', './Component').then(m=>m.AppComponent)
     },
     {
         path: 'ag-grid',
-        loadComponent: () => loadRemoteModule('agGrid', './Component')
+        loadComponent: () => loadRemoteModule('agGrid', './Component').then(m=>m.AppComponent)
     },
     {
         path: 'ng-material',
-        loadComponent: () => loadRemoteModule('ngMaterial', './Component')
+        loadComponent: () => loadRemoteModule('ngMaterial', './Component').then(m=>m.AppComponent)
     },
     {
         path: 'kendo-ui',
-        loadComponent: () => loadRemoteModule('kendoUI', './Component')
+        loadComponent: () => loadRemoteModule('kendoUI', './Component').then(m=>m.AppComponent)
     },
     {
         path: 'ng-bootstrap',
-        loadComponent: () => loadRemoteModule('ngBootstrap', './Component')
+        loadComponent: () => loadRemoteModule('ngBootstrap', './Component').then(m=>m.AppComponent)
     },
     {
         path: 'ng-zorro',
-        loadComponent: () => loadRemoteModule('ngZorro', './Component')
+        loadComponent: () => loadRemoteModule('ngZorro', './Component').then(m=>m.AppComponent)
     },
     {
         path: 'prime-ng',
-        loadComponent: () => loadRemoteModule('primeNG', './Component')
+        loadComponent: () => loadRemoteModule('primeNG', './Component').then(m=>m.AppComponent)
     }
 ];
