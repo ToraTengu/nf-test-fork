@@ -236,7 +236,7 @@
 					},
 					"defaultConfiguration": "development",
 					"options": {
-						"port": 4200
+						"port": 4201
 					}
 				}
 			}
@@ -352,7 +352,7 @@
 					},
 					"defaultConfiguration": "development",
 					"options": {
-						"port": 4201
+						"port": 4200
 					}
 				}
 			}
