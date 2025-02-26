@@ -4,6 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:mf-shell": "ng serve clarity-shell",
+    "start:mf-clarity": "ng serve clarity-app",
+    "start:mf-agGrid": "ng serve ag-grid-app",
+    "start:mf-ngMaterial": "ng serve angular-material-app",
+    "start:mf-kendoUI": "ng serve kendo-ui-app",
+    "start:mf-ngBootstrap": "ng serve ng-bootstrap-app",
+    "start:mf-primeNG": "ng serve primeng-app",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
