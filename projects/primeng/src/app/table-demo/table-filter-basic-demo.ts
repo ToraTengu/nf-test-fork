@@ -11,6 +11,7 @@ import { IconFieldModule } from 'primeng/iconfield';
 import { InputIconModule } from 'primeng/inputicon';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { InputTextModule } from 'primeng/inputtext';
 
 @Component({
     selector: 'table-filter-basic-demo',
@@ -18,6 +19,7 @@ import { FormsModule } from '@angular/forms';
     standalone: true,
     imports: [
         TableModule,
+        InputTextModule,
         IconFieldModule,
         MultiSelectModule,
         SelectModule,

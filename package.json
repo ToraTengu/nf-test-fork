@@ -46,6 +46,7 @@
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.7",
     "chartjs": "^0.3.24",
+    "date-fns": "^4.1.0",
     "es-module-shims": "^1.5.12",
     "ng-zorro-antd": "^19.0.1",
     "primeng": "^19.0.2",
