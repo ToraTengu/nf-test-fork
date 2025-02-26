@@ -11,5 +11,17 @@ export const routes: Routes = [
     {
         path: 'clarityApp',
         loadComponent: () => loadRemoteModule('clarityApp', './Component')
+    },
+    {
+        path: 'agGridApp',
+        loadComponent: () => loadRemoteModule('ag-grid-app', './Component')
+    },
+    {
+        path: 'clarityApp',
+        loadComponent: () => loadRemoteModule('clarityApp', './Component')
+    },
+    {
+        path: 'clarityApp',
+        loadComponent: () => loadRemoteModule('clarityApp', './Component')
     }
 ];

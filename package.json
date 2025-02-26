@@ -10,6 +10,7 @@
     "start:ngMaterial": "ng serve angular-material-app",
     "start:kendoUI": "ng serve kendo-ui-app",
     "start:ngBootstrap": "ng serve ng-bootstrap-app",
+    "start:ngZorro": "ng serve ng-zorro-app",
     "start:primeNG": "ng serve primeng-app",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
