@@ -9,19 +9,31 @@ export const routes: Routes = [
         component: HomeComponent
     },
     {
-        path: 'clarityApp',
-        loadComponent: () => loadRemoteModule('clarityApp', './Component')
+        path: 'clarity',
+        loadComponent: () => loadRemoteModule('clarity', './Component')
     },
     {
-        path: 'agGridApp',
-        loadComponent: () => loadRemoteModule('ag-grid-app', './Component')
+        path: 'ag-grid',
+        loadComponent: () => loadRemoteModule('agGrid', './Component')
     },
     {
-        path: 'clarityApp',
-        loadComponent: () => loadRemoteModule('clarityApp', './Component')
+        path: 'ng-material',
+        loadComponent: () => loadRemoteModule('ngMaterial', './Component')
     },
     {
-        path: 'clarityApp',
-        loadComponent: () => loadRemoteModule('clarityApp', './Component')
+        path: 'kendo-ui',
+        loadComponent: () => loadRemoteModule('kendoUI', './Component')
+    },
+    {
+        path: 'ng-bootstrap',
+        loadComponent: () => loadRemoteModule('ngBootstrap', './Component')
+    },
+    {
+        path: 'ng-zorro',
+        loadComponent: () => loadRemoteModule('ngZorro', './Component')
+    },
+    {
+        path: 'prime-ng',
+        loadComponent: () => loadRemoteModule('primeNG', './Component')
     }
 ];
